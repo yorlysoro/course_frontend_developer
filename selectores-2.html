@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Selectores 2</title>
+	<link rel="stylesheet" href="">
+	<style>
+		div p {
+			color: lime;
+		}
+		div > div {
+			background:  plum;
+		}
+		.es {
+			background:  red;
+		}
+
+		div + section {
+			background:  palevioletred;
+		}
+
+		div ~ p {
+			color:  powderblue;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p>Platzi</p>
+		<p>Otro</p>
+		<div>
+			<p>Platzi 2</p>
+			<div class="es">Es</div>
+		</div>
+	</div>
+	<p>Clase de selectores</p>
+	<section>
+		es lo mejor
+	</section>
+</body>
+</html>
